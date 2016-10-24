@@ -3,14 +3,38 @@
 <head>
     <meta charset="utf-8">
     <title>Timestamp Microservice API</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <style type="text/css">
         body {
-            font-family: sans-serif;        
+            font-family: 'Roboto Condensed', sans-serif;
+            text-align: center;
+            background-color: #FCFAF9;
+            color: #49306B;
+        }
+        .main {
+            width: 100%;
+        }
+        .content {
+            width: 80%;
+            margin: 0 auto;
+        }
+        code {
+            background-color: #D0F4EA;
         }
     </style>
 </head>
 <body>
-    <h1>Timestamp Microservice API</h1>
-    <p>Insert either a natural language date or Unix date after the / in the address, and this site will provide a JSON object with both formats.</p>
+    <div class="main">
+        <div class="content">
+            <h1>Timestamp Microservice API</h1>
+            <p>Insert either a natural language date or Unix date after the <code>/</code> in the address, and this site will provide a JSON object with both formats.</p>
+
+            <h3>Example Input:</h3>
+            <code>https://timestamp-ms.herokuapp.com/Oct%2024,%202016</code><br>
+            <code>https://timestamp-ms.herokuapp.com/1477285200</code>
+            <h3>Example Output:</h3>
+            <code>{ "unix": 1477285200, "natural": "October 24, 2016" }</code>
+        </div>
+    </div>
 </body>
 </html>
