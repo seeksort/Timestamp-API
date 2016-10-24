@@ -2,7 +2,7 @@ var http = require('http');
 var url = require('url');
 var fs = require('fs');
 
-var PORT = 3000;
+var $PORT = process.env.PORT || 3000;
 var server = http.createServer(handleRequest);
 var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 var unixTime, naturalTime;
@@ -54,9 +54,9 @@ function handleRequest(req, res) {
     }
 }
 
-server.listen(PORT, function(err) {
+server.listen($PORT, function(err) {
     if (err) throw err;
     else {
-        console.log('server listening on port: ' + PORT);
+        console.log('server listening on port: ' + $PORT);
     }
 });

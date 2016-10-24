@@ -1,0 +1,23 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "An API that will use URL params to generate a JSON object of the dates in both Unix and natural language formats.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seeksort/timestamp-microservice.git"
+  },
+  "author": "seeksort",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seeksort/timestamp-microservice/issues"
+  },
+  "engines": {
+    "node": "4.6.1"
+  },
+  "homepage": "https://github.com/seeksort/timestamp-microservice#readme"
+}
