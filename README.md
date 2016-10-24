@@ -4,4 +4,6 @@
 
 This is one of the [Free Code Camp API projects](https://www.freecodecamp.com/challenges/timestamp-microservice). 
 
-<img src="screenshot.png" alt="Home page describing how the timestamp microservice works" width="450">
+[Live on Heroku](https://sheltered-lowlands-41267.herokuapp.com/)
+
+<img src="screenshot.png" alt="Home page describing how the timestamp microservice works" width="500">
